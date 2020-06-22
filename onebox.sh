@@ -2,6 +2,9 @@
 # Copyright (c) Microsoft Corporation. All Rights Reserved.
 # Licensed under the MIT license. See LICENSE file on the project webpage for details.
 
+# Set supported locale setting: 
+export LC_ALL=C 
+
 # Export all bash variable assignments (for use by sub-processes)
 # Immmediately exit on error
 set -ae
